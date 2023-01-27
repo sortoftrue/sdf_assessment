@@ -10,7 +10,7 @@ class Main {
 
     public static void main(String[] args) {
 
-        File file = new File("./task01/%s".formatted(args[0]));
+        File file = new File("./%s".formatted(args[0]));
 
         BufferedReader reader;
 
