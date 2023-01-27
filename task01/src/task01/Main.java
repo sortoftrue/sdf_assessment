@@ -3,7 +3,6 @@ package task01;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.util.Arrays;
 import java.util.Scanner;
 
 class Main {
@@ -20,7 +19,6 @@ class Main {
         try {
             reader = new BufferedReader(new FileReader(file));
 
-            int total = 0;
             String sentence;
             Scanner scan;
 
